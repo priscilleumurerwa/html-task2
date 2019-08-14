@@ -1,0 +1,100 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+
+/* From here */
+
+header {
+  height: 50px;
+  background-color: rgb(51, 50, 50);
+  padding-top: 5px;
+}
+
+header ul {}
+
+header ul a {
+  color: white;
+  text-decoration: none
+}
+
+header li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header ul:after {}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* This is the implementation of the header part */
+
+.main-header img {
+  /* Implementation of the main image (image of the white "Achieve" character)*/
+  position: relative;
+  top: 5rem;
+  width: 250px;
+}
+
+.about {
+  /* Implementation of the About Achieve part*/
+}
+
+/* from here */
+
+.function {
+  background: #b3b3b3
+}
+
+.mt-5 {
+  padding-top: 40px
+}
+
+.mb-5 {
+  padding-bottom: 40px
+}
+
+.function-images {}
+
+.function-image {
+  display: inline-block;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.function-image>img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Here is the implementation of the function part */
+
+footer {
+  /* Implementation of footer part */
+  background-color: black;
+  height: 70px;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* This is a CSS template prepared as a hint, so if you want, you may implement it as you like. Any implementation will pass if it meets the requirements and the code quality is considered to be at a certain level. */
